@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row myData">
+      <script type="text/html" id="show-col">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-thumnail">
+              <img class="card-img-top" alt="{{title}}" src="{{img}}"
+                data-holder-rendered="true">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{title}}</h5>
+              <p class="card-text">{{text}}</p>
+              <a href="{{link}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </script>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
